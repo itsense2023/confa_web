@@ -1,0 +1,69 @@
+{"usuarioId":264,
+                    "usuario":"ext_prueba1",
+                    "contrasena":"","tema":"",
+                    "plazaId":"","estado": True,
+                    "fechaVencimiento":"",
+                    "perfiles":[{"perfilId":106,
+                                 "sistema":{"sistemaId":54,
+                                            "nombre":"PQRS",
+                                            "estado":True},
+                                            "nombre":"ADMINISTRACION",
+                                            "descripcion":"",
+                                            "estado":True}],
+                                            "links":[{"modulo_id":"184",
+                                                      "moduloNombre":"Configuración",
+                                                      "nombre":"Configuración",
+                                                      "url":"",
+                                                      "estado":True,
+                                                      "usuarioLinks":[],
+                                                      "perfilLinks":[
+													                {"modulo_id":"184",
+                                                                    "moduloNombre":"Configurar notificaciones",
+                                                                    "nombre":"Configurar notificaciones",
+                                                                    "url":"/configure-notifications",
+                                                                    "estado":True,
+                                                                    "usuarioLinks":[]
+													                },
+													                {"modulo_id":"184",
+                                                                    "moduloNombre":"Parametrizar solicitantes, solicitudes y asociados",
+                                                                    "nombre":"Parametrizar solicitantes, solicitudes y asociados",
+                                                                    "url":"/",
+                                                                    "estado":True,
+													                "perfilLinks":[
+													                            {"modulo_id":"184",
+                                                                                "moduloNombre":"Tipo solicitante",
+                                                                                "nombre":"Tipo solicitante",
+                                                                                "url":"/applicant-type",
+                                                                                "estado":True 
+													                            },
+                                                                                {"modulo_id":"184",
+                                                                                "moduloNombre":"Tipo solicitud",
+                                                                                "nombre":"Tipo solicitud",
+                                                                                "url":"/request-type",
+                                                                                "estado":True 
+													                            },
+													                            {"modulo_id":"184",
+                                                                                "moduloNombre":"Asociar tipos de solicitud de un solicitante",
+                                                                                "nombre":"Asociar tipos de solicitud de un solicitante",
+                                                                                "url":"/applicant-request-association",
+                                                                                "estado":True
+													                            }]
+                                                                    },
+                                                                    {"modulo_id":"184",
+                                                                    "moduloNombre":"Parametrizar modalidad de solicitud, categoria, Tipología y causa asociada",
+                                                                    "nombre":"Parametrizar modalidad de solicitud, categoria, Tipología y causa asociada",
+                                                                    "url":"/modality",
+                                                                    "estado":True,
+													                "perfilLinks":[]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {"modulo_id":"184",
+                                                            "moduloNombre":"Consultar solicitudes",
+                                                            "nombre":"Consultar solicitudes",
+                                                            "url":"/search-requests",
+                                                            "estado":True,
+                                                            "usuarioLinks":[],
+                                                            "perfilLinks":[]
+                                                            }]
+                                                        }
