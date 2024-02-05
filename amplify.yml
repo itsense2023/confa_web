@@ -22,11 +22,11 @@ frontend:
         - npm run build:$AWS_BRANCH
         - ls -ltr
         - pwd
-        - cd dist/confa/browser
+        - cd dist/confa
         - ls -ltr
         - pwd
   artifacts:
-    baseDirectory: dist/confa/browser
+    baseDirectory: dist/confa
     files:
       - '**/*'
   cache:
